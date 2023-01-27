@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tree</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <div class="h_logo">
+                        <a href="javascript:;">
+                            <img src="img/logo.png" alt="북트리로고이미지">
+                        </a>
+                    </div><!--//.h_logo-->
+                    <div class="h_nav">
+                        <ul>
+                            <li><a href="javascript:;">베스트</a></li>
+                            <li><a href="javascript:;">스테디</a></li>
+                            <li><a href="javascript:;">신상품</a></li>
+                            <li><a href="javascript:;">중고서적</a></li>
+                            <li><a href="javascript:;">이벤트</a></li>
+                            <li><a href="javascript:;">E-BOOK</a></li>
+                        </ul>
+                    </div><!--//.h_nav-->
+                </div><!--//.header-->
+            </div><!--//.row-->
+        </div><!--//.container-->
+    </header><!--//#header-->
+
+    <section id="search">
+        <div class="container">
+            <div class="row">
+                <div class="search">
+                    <select name="category" id="searchCate">
+                        <option value="all">통합검색</option>
+                        <option value="novel">소설</option>
+                        <option value="poem">시</option>
+                        <option value="magazine">잡지</option>
+                    </select>
+                    <form action="" id="searchWindow">
+                        <input type="text" name="searchWindow">
+                        <a href="javascript:;">
+                            <img src="img/search.png" alt="검색아이콘">
+                        </a>
+                    </form>
+                </div><!--//.search-->
+            </div><!--//.row-->
+        </div><!--//.container-->
+    </section><!--//#search-->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="banner">
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="img/banner1.png" alt="이윤기의그리스로마신화배너이미지" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/banner2.png" alt="김초엽책모음배너이미지" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/banner3.png" alt="아버지의해방일지배너이미지" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                          </div>
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                      
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      
+                      </div>
+                </div>
+            </div><!--//.row-->
+        </div><!--//.container-->
+    </section><!--//#banner-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
