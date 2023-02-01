@@ -4,6 +4,20 @@
     .container{
         width: 100%;
     }
+    .row{
+        padding: 0 20px;
+    }
+
+    .banner .mySwiper figure a img{
+        width: 140%;
+    }
+
+    .ad a figure figcaption{
+        width: 60%;
+    }
+    .ad a figure img{
+        width: 25%;
+    }
 }
 
 @media (max-width:980px) {
@@ -12,6 +26,35 @@
     }
     .header .h_nav ul li::after{
         top:15px;
+    }
+
+    .banner .mySwiper figure figcaption{
+        margin: 30px;
+    }
+    .banner .mySwiper figure figcaption p{
+        font-size: 30px;
+    }
+
+    .ad>div{
+        height: 150px;
+    }
+    .ad a figure{
+        height: 150px;
+    }
+    .ad a figure figcaption{
+        padding: 20px;
+    }
+    .ad a figure figcaption p{
+        font-size: 13px;
+    }
+    .ad a figure figcaption b{
+        font-size: 15px;
+    }
+    .ad a figure .adIcon{
+        width: 25px;
+        font-size: 12px;
+        bottom: 15px;
+        left:20px;
     }
 }
 
@@ -42,6 +85,37 @@
     .search form input{
         font-size: 15px;
     }
+
+    .banner{
+        padding: 20px 0 20px 0;
+    }
+    .banner .mySwiper figure figcaption{
+        margin: 0 20px 20px 40px;
+    }
+    .banner .mySwiper figure figcaption p{
+        font-size: 25px;
+    }
+
+    .ad>div{
+        height: 130px;
+    }
+    .ad a figure{
+        height: 130px;
+    }
+    .ad a figure figcaption p{
+        font-size: 12px;
+    }
+    .ad a figure figcaption b{
+        font-size: 13px;
+    }
+    .ad a figure .adIcon{
+        width: 20px;
+        font-size: 11px;
+        bottom: 15px;
+    }
+    .ad a figure img{
+        right:50px;
+    }
 }
 
 @media (max-width:720px) {
@@ -71,6 +145,54 @@
     .search form a{
         right:20px;
         top:10px;
+    }
+
+    .banner{
+        padding: 10px 0;
+    }
+    .banner .mySwiper figure figcaption p{
+        font-size: 20px;
+    }
+
+    .ad>div{
+        height: 120px;
+    }
+    .ad a figure{
+        height: 120px;
+    }
+    .ad a figure figcaption{
+        padding: 15px;
+    }
+    .ad a figure figcaption p{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .ad a figure figcaption b{
+        font-size: 12px;
+    }
+    .ad a figure .adIcon{
+        width: 18px;
+        font-size: 10px;
+        left:15px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width:680px) {
+    .ad>div{
+        height: 100px;
+    }
+    .ad a figure{
+        height: 100px;
+    }
+    .ad a figure figcaption p{
+        margin-bottom: 0;
+    }
+    .ad a figure figcaption{
+        width: 65%;
+    }
+    .ad a figure img{
+        right:30px;
     }
 }
 
@@ -110,6 +232,45 @@
     .search form a img{
         width: 15px;
     }
+
+    .ad a figure figcaption{
+        width: 70%;
+    }
+    .ad a figure figcaption b{
+        font-size: 11px;
+    }
+    .ad a figure img{
+        width: 20%;
+        top:10px;
+        right:15px;
+    }
+    /* .ad a figure .adIcon{
+        left:50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+    } */
+}
+
+@media (max-width:580px) {
+    .ad>div{
+        width: 100%;
+        height: 80px;
+    }
+    .ad .ad2{
+        display: none;
+    }
+    .ad a figure{
+        height: 80px;
+    }
+    .ad a figure figcaption{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .ad a figure img{
+        width: 15%;
+        right:50px;
+    }
 }
 
 @media (max-width:480px) {
@@ -132,6 +293,29 @@
     }
     .search form input{
         font-size: 12px;
+    }
+
+
+    .banner .mySwiper figure figcaption{
+        margin: 0 10px 10px 30px;
+    }
+    .banner .mySwiper figure figcaption p{
+        font-size: 15px;
+    }
+    .banner .mySwiper figure a img{
+        border-radius: 20px;
+    }
+
+    .ad>div{
+        height: 60px;
+        border-radius: 10px;
+    }
+    .ad a figure{
+        height: 60px;
+    }
+    .ad a figure img{
+        top:-5px;
+        right:30px;
     }
 }
 
@@ -163,5 +347,9 @@
     }
     .search form a img{
         width: 10px;
+    }
+
+    .banner .mySwiper figure figcaption p{
+        font-size: 13px;
     }
 }

@@ -1,9 +1,16 @@
 @charset "utf-8";
 
 /*layout*/
+html{
+    overflow-x: hidden;
+}
 #header{width: 100%;}
 
 #search{width: 100%;}
+
+#banner{}
+
+#ad{}
 
 /*container*/
 .container{
@@ -103,3 +110,70 @@
 .search form a img{}
 
 /*banner*/
+.banner{
+    padding: 30px 0 30px 0;
+}
+.banner .mySwiper{}
+.banner .mySwiper figure{}
+.banner .mySwiper figure figcaption{
+    margin: 40px;
+}
+.banner .mySwiper figure figcaption p{
+    font-size: 40px;
+    font-weight: bold;
+    color:#111;
+}
+.banner .mySwiper figure a{}
+.banner .mySwiper figure a img{
+    border-radius: 30px;
+}
+.banner .mySwiper figure {}
+
+/*ad*/
+.ad{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.ad>div{
+    width: 49%;
+    height: 180px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ad .ad1{}
+.ad .ad1 a{}
+.ad a figure{
+    position: relative;
+    height: 180px;
+}
+.ad a figure figcaption{
+    padding: 30px;
+}
+.ad a figure figcaption p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.ad a figure figcaption b{
+    font-size: 18px;
+}
+.ad a figure .adIcon{
+    background-color: #d9d9d9;
+    width: 30px;
+    font-size: 14px;
+    color:#fff;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    left:30px;
+}
+.ad a figure img{
+    width: 150px;
+    position: absolute;
+    top:0px;
+    right:70px;
+    box-shadow: 30px 30px 10px #999;
+    transform: rotate(20deg);
+}

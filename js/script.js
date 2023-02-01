@@ -2,9 +2,13 @@ $(document).ready(function(){
 
     //swiper
     var swiper = new Swiper(".mySwiper", {
-        autoplay: {
-            delay: 2000,
-          },
+        autoplay:{
+          delay: 4000,
+        },
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
         preloadImages: false,
         lazy:true,
         
