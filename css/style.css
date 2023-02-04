@@ -14,6 +14,8 @@ html{
 
 #tabmenu{}
 
+#md{}
+
 /*container*/
 .container{
     width: 1200px;
@@ -275,4 +277,47 @@ html{
 .tabmenu div ul li figure figcaption .s_author{
     font-size: 13px;
     margin-top: 5px;
+}
+
+/*md*/
+.md{
+    height: 300px;
+    display: flex;
+    margin-top: 30px;
+}
+.md .left_area{
+    width: 300px;
+    padding: 24px 72px 0 0;
+}
+.md .left_area .md_title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.md .left_area .md_desc{}
+.md .right_area{
+    padding-top: 24px;
+}
+.md .right_area .md_swiper{
+    width: 900px;
+    overflow: hidden;
+}
+.md .right_area .md_swiper figure{
+    border-radius: 50%;
+}
+.md .right_area .md_swiper figure img{
+    border-radius: 50%;
+}
+.md .right_area .md_swiper figure figcaption{
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    background-color: #888;
+    opacity: 0.8;
+    text-align: center;
+}
+.md .right_area .md_swiper figure figcaption .md_subtitle{
+    color:#fff;
+}
+.md .right_area .md_swiper figure figcaption .md_price{
+    color:#fff;
 }

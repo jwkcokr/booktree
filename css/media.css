@@ -8,9 +8,9 @@
         padding: 0 20px;
     }
 
-    .banner .mySwiper figure a img{
+    /* .banner .mySwiper figure a img{
         width: 140%;
-    }
+    } */
 
     .ad a figure figcaption{
         width: 60%;
@@ -86,6 +86,10 @@
         height: 3px;
         left:-15px;
         top:13px;
+    }
+
+    .banner .mySwiper figure a img{
+        width: 1400px;
     }
 
     .search select{
@@ -178,7 +182,10 @@
         padding: 10px 0;
     }
     .banner .mySwiper figure figcaption p{
-        font-size: 20px;
+        /* font-size: 20px; */
+    }
+    .banner .mySwiper figure a img{
+        width: 1200px;
     }
 
     .ad>div{
@@ -207,10 +214,10 @@
 
 @media (max-width:680px) {
     .ad>div{
-        height: 100px;
+        height: 120px;
     }
     .ad a figure{
-        height: 100px;
+        height: 120px;
     }
     .ad a figure figcaption p{
         margin-bottom: 0;
@@ -267,7 +274,7 @@
         font-size: 11px;
     }
     .ad a figure img{
-        width: 20%;
+        /* width: 20%; */
         top:10px;
         right:15px;
     }
@@ -296,23 +303,28 @@
 }
 
 @media (max-width:580px) {
+    .banner .mySwiper figure a img{
+        width: 1000px;
+    }
+
     .ad>div{
         width: 100%;
-        height: 80px;
+        height: 100px;
     }
     .ad .ad2{
         display: none;
     }
     .ad a figure{
-        height: 80px;
+        height: 100px;
     }
     .ad a figure figcaption{
-        padding: 10px;
+        padding-top: 30px;
         width: 100%;
         text-align: center;
+        height: 100px;
     }
     .ad a figure img{
-        width: 15%;
+        width: 18%;
         right:50px;
     }
 }
@@ -344,22 +356,24 @@
         margin: 0 10px 10px 30px;
     }
     .banner .mySwiper figure figcaption p{
-        font-size: 15px;
+        font-size: 20px;
     }
     .banner .mySwiper figure a img{
         border-radius: 20px;
+        width: 900px;
     }
+    
 
     .ad>div{
-        height: 60px;
+        /* height: 60px; */
         border-radius: 10px;
     }
     .ad a figure{
-        height: 60px;
+        /* height: 60px; */
     }
     .ad a figure img{
-        top:-5px;
-        right:30px;
+        top:5px;
+        right:15px;
     }
 
     .tabmenu div ul{
@@ -431,7 +445,7 @@
     }
 
     .banner .mySwiper figure figcaption p{
-        font-size: 13px;
+        /* font-size: 15px; */
     }
     .tabmenu div ul li figure img{
     }

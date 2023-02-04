@@ -5,6 +5,7 @@ $(document).ready(function(){
         autoplay:{
           delay: 4000,
         },
+        loop:true,
         effect: 'fade',
         fadeEffect: {
           crossFade: true
@@ -40,5 +41,12 @@ $(document).ready(function(){
         target.addClass("active");
 
         rankCont.hide().eq(index).show();
+      });
+
+      //md swiper
+      new Swiper('.md_swiper', {
+        slidesPerView: 3,
+        loop:true,
+        
       });
 });
