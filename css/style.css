@@ -12,6 +12,8 @@ html{
 
 #ad{}
 
+#tabmenu{}
+
 /*container*/
 .container{
     width: 1200px;
@@ -176,4 +178,101 @@ html{
     right:70px;
     box-shadow: 30px 30px 10px #999;
     transform: rotate(20deg);
+}
+/* .ad .ad1:hover a figure img{
+    top:10px;
+    transition: all 1s;
+} 마우스오버시 책 움직이기*/
+
+/*tabmenu*/
+.tabmenu{
+    width: 1200px;
+}
+.tabmenu ul{}
+.tabmenu>ul>li{
+    float: left;
+    padding-bottom: 30px;
+    position: relative;
+}
+.tabmenu>ul>li:first-child:after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: #f1f1f1;
+    bottom: 40px;
+    left:97px;
+}
+.tabmenu>ul>li:first-child{
+    margin-right: 30px;
+}
+.tabmenu ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    color:#f1f1f1;
+}
+.tabmenu ul li a:hover{
+    color:#696969;
+    transition: color 0.8s;
+}
+.tabmenu ul li.active a{
+    color:#767676;
+}
+.tabmenu .best_rank{}
+.tabmenu div ul{
+    display: flex;
+    justify-content: space-between;
+}
+.tabmenu div ul li{}
+.tabmenu div ul li figure{
+    position: relative;
+}
+.tabmenu div ul li:first-child figure .rank{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #8fb087;
+    color:#fff;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px 0;
+}
+.tabmenu div ul li figure .rank{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #767676;
+    color:#fff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px 0;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.tabmenu div ul li figure img{
+    border-radius: 5px 0 0 0;
+}
+.tabmenu div ul li figure figcaption{
+    margin-top: 15px;
+}
+.tabmenu div ul li figure figcaption .b_title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.tabmenu div ul li figure figcaption .b_author{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.tabmenu div ul li figure figcaption .s_title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.tabmenu div ul li figure figcaption .s_author{
+    font-size: 13px;
+    margin-top: 5px;
 }
