@@ -45,8 +45,22 @@ $(document).ready(function(){
 
       //md swiper
       new Swiper('.md_swiper', {
-        slidesPerView: 3,
+        slidesPerView: 1,
         loop:true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+        
+          620: {
+            slidesPerView: 3,  //브라우저가 768보다 클 때
+            // spaceBetween: 30,
+        },
+          420: {
+            slidesPerView:2,
+          }
+      },
         
       });
 });

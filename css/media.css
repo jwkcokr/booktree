@@ -31,6 +31,28 @@
     .tabmenu div ul li figure img{
         width: 100%;
     }
+
+    .md{
+        width: 100%;
+        height: 280px;
+    }
+    .md .left_area{
+        width: 25%;
+    }
+    .md .right_area{
+        width: 75%;
+    }
+    .md .right_area .md_swiper{
+        width: 100%;
+    }
+    .md .right_area .md_swiper figure img{
+        width: 230px;
+        height: 230px;
+    }
+    .md .right_area .md_swiper figure figcaption{
+        width: 230px;
+        height: 230px;
+    }
 }
 
 @media (max-width:980px) {
@@ -68,6 +90,21 @@
         font-size: 12px;
         bottom: 15px;
         left:20px;
+    }
+
+    .md{
+        height: 260px;
+    }
+    .md .left_area .md_desc{
+        font-size: 14px;
+    }
+    .md .right_area .md_swiper figure img{
+        width: 200px;
+        height: 200px;
+    }
+    .md .right_area .md_swiper figure figcaption{
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -147,6 +184,39 @@
         left:80px;
         bottom: 38px;
     }
+
+    .md{
+        height: 220px;
+    }
+    .md .left_area{
+        padding-right: 40px;
+    }
+    .md .left_area .md_title{
+        font-size: 24px;
+    }
+    .md .left_area .md_desc{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .md .right_area .md_swiper figure img{
+        width: 165px;
+        height: 165px;
+    }
+    .md .right_area .md_swiper figure figcaption{
+        width: 165px;
+        height: 165px;
+    }
+    .md .right_area .md_swiper figure figcaption p{
+        font-size: 14px;
+    }
+    .md .right_area .swiper-button-prev{
+        top:180px;
+        left:0px;
+    }
+    .md .right_area .swiper-button-next{
+        top:180px;
+        left:50px;
+    }
 }
 
 @media (max-width:720px) {
@@ -209,6 +279,42 @@
         font-size: 10px;
         left:15px;
         bottom: 10px;
+    }
+
+    .md{
+        height: 180px;
+    }
+    .md .left_area .md_desc{
+        margin-top: 5px;
+    }
+    .md .right_area .md_swiper figure img{
+        width: 140px;
+        height: 140px;
+    }
+    .md .right_area .md_swiper figure figcaption{
+        width: 140px;
+        height: 140px;
+    }
+    .md .right_area .md_swiper figure figcaption p{
+        font-size: 12px;
+    }
+    .md .right_area .swiper-button-prev{
+        top:165px;
+        left:0px;
+        width: 30px;
+        height: 30px;
+    }
+    .md .right_area .swiper-button-next{
+        top:165px;
+        left:40px;
+        width: 30px;
+        height: 30px;
+    }
+    .md .right_area .swiper-button-prev::after{
+        font-size: 12px;
+    }
+    .md .right_area .swiper-button-next::after{
+        font-size: 12px;
     }
 }
 
@@ -299,6 +405,30 @@
     }
     .tabmenu>ul>li:first-child{
         margin-right: 20px;
+    }
+
+    .md{
+        height: 160px;
+    }
+    .md .left_area{
+        width: 35%;
+        padding-right: 20px;
+        height: 160px;
+    }
+    .md .left_area .md_title{
+        font-size: 20px;
+    }
+    .md .left_area .md_desc{
+        font-size: 12px;
+    }
+    .md .right_area{
+        width: 65%;
+    }
+    .md .right_area .swiper-button-prev{
+        top:145px;
+    }
+    .md .right_area .swiper-button-next{
+        top:145px;
     }
 }
 
@@ -412,6 +542,32 @@
     .tabmenu div ul li figure figcaption .s_author{
         font-size: 11px;
     }
+
+    .md{
+        height: 150px;
+    }
+    .md .left_area{
+        padding-top: 0;
+        height: 150px;
+    }
+    .md .left_area .md_title{
+        font-size: 15px;
+    }
+    .md .right_area{padding-top:0;}
+    .md .right_area .md_swiper figure img{
+        width: 120px;
+        height: 120px;
+    }
+    .md .right_area .md_swiper figure figcaption{
+        width: 120px;
+        height: 120px;
+    }
+    .md .right_area .swiper-button-prev{
+        top:120px;
+    }
+    .md .right_area .swiper-button-next{
+        top:120px;
+    }
 }
 
 @media (max-width:420px) {
@@ -449,4 +605,17 @@
     }
     .tabmenu div ul li figure img{
     }
+
+    .md{
+        height: 140px;
+    }
+    .md .left_area{
+        width: 60%;
+        padding-right: 50px;
+        height: 140px;
+    }
+    .md .right_area{
+        width: 40%;
+    }
+
 }
