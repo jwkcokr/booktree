@@ -16,6 +16,8 @@ html{
 
 #md{}
 
+#randomSentence{}
+
 /*container*/
 .container{
     width: 1200px;
@@ -372,4 +374,64 @@ html{
 .md .right_area .swiper-button-next::after{
     font-size: 15px;
     font-weight: bold;
+}
+
+/*randomSentence*/
+.randomSentence{
+    background-image: url(../img/randombg.png);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.randomTitle{
+    font-size: 30px;
+    margin-top: 10px;
+    color:#696969;
+}
+.randomSentence .random_title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.randomSentence .randombox{
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #888;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.randomSentence .randombox::before{
+    background: url(../img/marks1.png) no-repeat 0 0;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
+.randomSentence .randombox::after{
+    background: url(../img/marks2.png) no-repeat 0 0;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    left:20px;
+}
+.randomSentence .randombox .random_sentence{
+    width: 150px;
+    font-size: 20px;
+}
+.randomSentence .author{
+    margin-top: 10px;
+    font-size: 14px;
 }

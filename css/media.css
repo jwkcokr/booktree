@@ -217,6 +217,40 @@
         top:180px;
         left:50px;
     }
+
+    .randomSentence{
+        height: 300px;
+    }
+    .randomTitle{
+        font-size: 24px;
+    }
+    .randomSentence .random_title{
+        font-size: 20px;
+    }
+    .randomSentence .randombox{
+        width: 180px;
+        height: 180px;
+    }
+    .randomSentence .randombox::before{
+        background: url(../img/marks1.png) no-repeat 0 0;
+        background-size: 20px;
+        width: 20px;
+        height: 20px;
+        bottom: 10px;
+        right:10px;
+    }
+    .randomSentence .randombox::after{
+        background: url(../img/marks2.png) no-repeat 0 0;
+        background-size: 20px;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left:10px;
+    }
+    .randomSentence .randombox .random_sentence{
+        width: 120px;
+        font-size: 17px;
+    }
 }
 
 @media (max-width:720px) {
@@ -430,6 +464,37 @@
     .md .right_area .swiper-button-next{
         top:145px;
     }
+
+    .randomSentence{
+        height: 250px;
+    }
+    .randomTitle{
+        font-size: 20px;
+    }
+    .randomSentence .random_title{
+        font-size: 17px;
+    }
+    .randomSentence .randombox{
+        width: 150px;
+        height: 150px;
+    }
+    .randomSentence .randombox::before{
+        background-size: 15px;
+        width: 15px;
+        height: 15px;
+    }
+    .randomSentence .randombox::after{
+        background-size: 15px;
+        width: 15px;
+        height: 15px;
+    }
+    .randomSentence .randombox .random_sentence{
+        width: 100px;
+        font-size: 15px;
+    }
+    .randomSentence .author{
+        margin-top: 5px;
+    }
 }
 
 @media (max-width:580px) {
@@ -567,6 +632,39 @@
     }
     .md .right_area .swiper-button-next{
         top:120px;
+    }
+
+    .randomSentence{
+        height: 200px;
+    }
+    .randomTitle{
+        font-size: 15px;
+    }
+    .randomSentence .random_title{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .randomSentence .randombox{
+        width: 120px;
+        height: 120px;
+    }
+    .randomSentence .randombox::before{
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+    }
+    .randomSentence .randombox::after{
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+    }
+    .randomSentence .randombox .random_sentence{
+        width: 80px;
+        font-size: 12px;
+    }
+    .randomSentence .author{
+        margin-top: 0px;
+        font-size: 12px;
     }
 }
 
