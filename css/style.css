@@ -101,6 +101,7 @@ html{
     border: transparent;
     border-radius: 30px;
     outline: none;
+    background-color: #fff;
 }
 .search select option{
     /* padding: 10px 20px; */
