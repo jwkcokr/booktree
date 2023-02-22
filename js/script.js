@@ -117,4 +117,90 @@ $(document).ready(function(){
       title.innerText = todayRandom.title;
       sentence.innerText = todayRandom.sentence;
       author.innerText = todayRandom.author;
+
+
+      //recommend
+      const recommends = [
+        {
+          img : "rec1",
+          title : "부의 레버리지",
+          author : "보도섀퍼",
+        },
+        {
+          img : "rec2",
+          title : "슬램덩크",
+          author : "이노우에 타케히코",
+        },
+        {
+          img : "rec3",
+          title : "돈의속성",
+          author : "최승호",
+        },
+        {
+          img : "rec4",
+          title : "인간관계론",
+          author : "데일 카네기",
+        },
+        {
+          img : "rec5",
+          title : "별빛 너머의 별",
+          author : "나태주",
+        },
+        {
+          img : "rec6",
+          title : "과부하시대",
+          author : "로라 판 더누트 립스키",
+        },
+        {
+          img : "rec7",
+          title : "위기의 쓸모",
+          author : "브루스 파일러",
+        },
+      ];
+
+      const btn = document.querySelector(".btn");
+
+      btn.addEventListener('click', changeImg);
+      function changeImg(){
+
+        const todayRec = recommends[Math.floor(Math.random()*recommends.length)];
+        const chosenImg = Math.floor(Math.random()*recommends.length);
+
+        let ranNum = Number(chosenImg);
+        let ranNum2 = Number(chosenImg+1);
+        const recLen = recommends.length;
+
+        let ranImg1 = `img/rec${ranNum}.png`;
+        let ranImg2 = `img/rec${ranNum2}.png`;
+
+        let box1 = document.querySelector(".box1");
+        let box2 = document.querySelector(".box2");
+        let recImg1 = document.querySelector(".box1 img");
+        let recImg2 = document.querySelector(".box2 img");
+        let box1_title = document.querySelector(".rec1_title");
+        let box1_author = document.querySelector(".rec1_author");
+        let box2_title = document.querySelector(".rec2_title");
+        let box2_author = document.querySelector(".rec2_author");
+
+        if (((0<ranNum)&&(ranNum<recLen))&&((0<ranNum2)&&(ranNum2<=recLen))){
+            
+            recImg1.src= ranImg1;
+            recImg2.src= ranImg2;
+            box1_title.innerText = recommends[ranNum-1].title;
+            box2_title.innerText = recommends[ranNum2-1].title;
+            box1_author.innerText = recommends[ranNum-1].author;
+            box2_author.innerText = recommends[ranNum2-1].author;
+            box1.style.backgroundImage = `url(img/rec${ranNum}.png)`;
+            box2.style.backgroundImage = `url(img/rec${ranNum2}.png)`;
+
+        }else{
+            ranNum = ranNum+2;
+            ranImg1 = `img/rec${ranNum}.png`;
+            recImg1.src= ranImg1;
+
+            box1_title.innerText = recommends[ranNum-1].title;
+            box1_author.innerText = recommends[ranNum-1].author;
+            box1.style.backgroundImage = `url(img/rec${ranNum}.png)`;
+        }
+      }
 });

@@ -155,6 +155,26 @@
         font-size: 25px;
     }
 
+    .recommend h3{
+        font-size: 24px;
+    }
+    .recommend .rec_box .boxs div{
+        height: 250px;
+    }
+    .recommend .rec_box .boxs img{
+        width: 180px;
+    }
+    .recommend .rec_box .boxs .rec1_title, .rec2_title{
+        font-size: 15px;
+    }
+    .recommend .rec_box .boxs .rec1_author, .rec2_author{
+        font-size: 13px;
+    }
+    .recommend .btn{
+        font-size: 14px;
+        padding: 10px 60px;
+    }
+
     .ad>div{
         height: 130px;
     }
@@ -407,6 +427,24 @@
         width: 15px;
     }
 
+    .recommend h3{
+        font-size: 20px;
+    }
+    .recommend .rec_box .boxs div{
+        height: 200px;
+    }
+    .recommend .rec_box .boxs img{
+        width: 140px;
+        margin-top: 10px;
+    }
+    .recommend .btn{
+        font-size: 12px;
+    }
+    .material-symbols-outlined{
+        vertical-align: -3px;
+        font-size: 15px;
+    }
+
     .ad a figure figcaption{
         width: 70%;
     }
@@ -569,6 +607,27 @@
     .banner .mySwiper figure a img{
         border-radius: 20px;
         width: 900px;
+    }
+
+    .recommend h3{
+        font-size: 15px;
+    }
+    .recommend .rec_box .boxs div{
+        height: 170px;
+    }
+    .recommend .rec_box .boxs img{
+        width: 120px;
+        margin-top: 10px;
+    }
+    .recommend .rec_box .boxs .rec1_title, .rec2_title{
+        font-size: 13px;
+    }
+    .recommend .rec_box .boxs .rec1_author, .rec2_author{
+        font-size: 11px;
+    }
+    .recommend .btn{
+        font-size: 12px;
+        padding: 5px 30px;
     }
     
 
