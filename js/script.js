@@ -203,4 +203,30 @@ $(document).ready(function(){
             box1.style.backgroundImage = `url(img/rec${ranNum}.png)`;
         }
       }
+
+      //popup
+      const popupClose = document.querySelector(".close");
+      const popup = document.querySelector("#popup");
+
+      popupClose.addEventListener("click", close);
+
+      function close(){
+        popup.style.display="none";
+      };
+
+      //topbtn
+      const topBtn = document.querySelector(".topbtn");
+
+      document.addEventListener("scroll", function(){
+        let currentScrollValue = document.documentElement.scrollTop;
+        // console.log("currentScrollValue is" + currentScrollValue);
+        if (currentScrollValue > 270){
+          topBtn.style.display="block";
+          topBtn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+          });
+        } else if (currentScrollValue < 270){
+          topBtn.style.display="none";
+        }
+      });
 });

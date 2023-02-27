@@ -58,6 +58,14 @@
         width: 100%;
         padding: 0 20px;
     }
+
+    .popup{
+        right:2%;
+    }
+
+    .top .topbtn{
+        right:30px;
+    }
 }
 
 @media (max-width:980px) {
@@ -280,6 +288,32 @@
     .footer .f_service{
         flex-wrap: wrap;
         align-content: flex-start;
+    }
+
+    .popup{
+        top:240px;
+    }
+    .popup figure{
+        width: 200px;
+    }
+    .popup figure button .material-symbols-outlined{
+        font-size: 20px;
+    }
+    .popup figure img{
+        width: 200px;
+    }
+    .popup figure figcaption{
+        padding: 15px;
+    }
+    .popup figure figcaption h4{
+        font-size: 12px;
+    }
+    .popup figure figcaption .popup_des{
+        font-size: 13px;
+    }
+    .popup figure figcaption .popup_by{
+        font-size: 12px;
+        margin-top: 5px;
     }
 }
 
@@ -533,6 +567,26 @@
     .randomSentence .author{
         margin-top: 5px;
     }
+
+    .popup figure{
+        width: 150px;
+    }
+    .popup figure img{
+        width: 150px;
+    }
+    .popup figure figcaption{
+        padding: 10px;
+    }
+    .popup figure figcaption h4{
+        font-size: 11px;
+    }
+    .popup figure figcaption .popup_des{
+        font-size: 12px;
+    }
+    .popup figure figcaption .popup_by{
+        font-size: 11px;
+        margin-top: 3px;
+    }
 }
 
 @media (max-width:580px) {
@@ -735,6 +789,18 @@
     .randomSentence .author{
         margin-top: 0px;
         font-size: 12px;
+    }
+
+    .popup{
+        top:210px;
+    }
+
+    .top .topbtn{
+        width: 30px;
+        height: 30px;
+    }
+    .top .topbtn .material-symbols-outlined{
+        font-size: 20px;
     }
 }
 

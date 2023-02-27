@@ -24,6 +24,10 @@ html{
 
 #footer{}
 
+#popup{}
+
+#top{}
+
 /*container*/
 .container{
     width: 1200px;
@@ -585,4 +589,74 @@ html{
 .footer .f_copy{
     font-size: 10px;
     margin-top: 20px;
+}
+
+/*popup*/
+.popup{
+    position: absolute;
+    top:300px;
+    right:10%;
+    z-index: 10;
+}
+.popup figure{
+    position: relative;
+}
+.popup figure button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    position: absolute;
+    right:0;
+    top:5px;
+    cursor: pointer;
+}
+.popup figure button .material-symbols-outlined{
+    font-size: 30px;
+}
+.popup figure button .material-symbols-outlined:hover{
+    color:#8fb087;
+    transition: all 0.4s;
+}
+.popup figure img{
+    border-radius: 20px 0 0 0;
+}
+.popup figure figcaption{
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+.popup figure figcaption h4{
+    font-size: 13px;
+    color:#8fb087;
+}
+.popup figure figcaption .popup_des{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.popup figure figcaption .popup_by{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/*top*/
+.top{}
+.top .topbtn{
+    /* display: none; */
+    position: fixed;
+    bottom:20px;
+    right:5%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #999;
+    border: 0;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+}
+.top .topbtn .material-symbols-outlined{
+    font-size: 30px;
+    margin: 0;
+    color:#696969
 }
